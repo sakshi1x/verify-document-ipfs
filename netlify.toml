@@ -1,0 +1,22 @@
+[build]
+  # Directory where your built files are located after running the build command
+  publish = ".next"
+  # Command to build your application
+  command = "yarn build"
+  
+  # Base directory if you're working with a monorepo or have a different root directory
+  # base = "."
+
+[functions]
+  # Directory for Netlify functions
+  directory = "netlify/functions"
+
+[[plugins]]
+  # Plugin for Next.js on Netlify, required for Next.js apps
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  # Redirect all routes to the index.html for client-side routing
+  from = "/*"
+  to = "/index.html"
+  status = 200
