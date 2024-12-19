@@ -6,3 +6,6 @@ https://www.youtube.com/watch?v=47luSA_4_vw
 Thank you for considering the demo! Let me know if you need anything further.
 
 Best regards,
+
+
+**NOTE: The image to upload needs to be a certificate type of image, otherwise it will not be supported**
